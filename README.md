@@ -30,12 +30,14 @@ O Singleton controla a criação da instância e centraliza o acesso a ela. Sua 
 
 ```mermaid 
 classDiagram
-    class ConfiguradorDaSala {
-        - static instanciaUnica : ConfiguradorDaSala
-        - ConfiguradorDaSala()
-        + static getInstance() : ConfiguradorDaSala
-        + getTemaPadrao() : String
-        + setTemaPadrao(novoTema: String)
+    class ControleDeCarros {
+        - static instanciaUnica : ControleDeCarros
+        - carrosDisponiveis : int
+        - ControleDeCarros()
+        + static getInstance() ControleDeCarros
+        + getCarrosDisponiveis() int
+        + adicionarCarro() void
+        + venderCarro() void
     }
 ```
 
