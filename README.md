@@ -22,9 +22,9 @@ Exemplos de uso:
 
 O Singleton controla a criação da instância e centraliza o acesso a ela. Sua solução baseia-se em três pontos:
 
--> Construtor privado: Impede a criação direta de novas instâncias.
--> Campo estático privado: Armazena a única instância da classe.
--> Método público de acesso: (getInstance()) retorna a instância única, criando-a apenas quando necessário.
+1. Construtor privado: Impede a criação direta de novas instâncias.
+2. Campo estático privado: Armazena a única instância da classe.
+3. Método público de acesso: (getInstance()) retorna a instância única, criando-a apenas quando necessário.
 
 ### 1.3 - Um diagrama simples (UML)
 
